@@ -4,10 +4,8 @@ const Note = ({ id, initialTitle, initialText, removeNote, updateNote }) => {
 
   // note title state
   const [title, setTitle] = useState(initialTitle);
-
   // note text state
   const [text, setText] = useState(initialText);
-
   // editable state
   const [editable, setEditable] = useState(false);
 
